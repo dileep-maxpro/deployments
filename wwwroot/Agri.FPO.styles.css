@@ -1,0 +1,269 @@
+@import '_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css';
+
+/* _content/Agri.FPO/Pages/Index.razor.rz.scp.css */
+.dashchart[b-2set44ig92] {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 4px;
+    margin:20px 0px;
+}
+
+.dashbarchart[b-2set44ig92]{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:10px 0px;
+}
+
+.dashbarchart > div[b-2set44ig92]{
+    margin-right:35px;
+    position:relative;
+}
+
+
+    .dashbarchart > div > p[b-2set44ig92] {
+        font-size: 12px;
+        color: #444444;
+    }
+
+    .dashbarchart > div > .total[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: -16px;
+        top: 5px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #FFC068;
+    }
+
+    .dashbarchart > div > .active[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: -16px;
+        top: 5px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #30846B;
+    }
+
+    .dashbarchart > div > .inactive[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: -16px;
+        top: 5px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #BEE0CD;
+    }
+
+.dashpiechart[b-2set44ig92]{
+    padding:14px 40px;
+}
+
+.dashpiechart1 > div[b-2set44ig92]{
+    position:relative;
+}
+
+    .dashpiechart1 > div > .piechart1[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: 0px;
+        top: 9px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #30846B;
+    }
+
+    .dashpiechart1 > div > .piechart2[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: 0px;
+        top: 9px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #75CA9B;
+    }
+
+    .dashpiechart1 > div > .piechart3[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: 0px;
+        top: 9px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #5FAD95;
+    }
+
+    .dashpiechart1 > div > .piechart4[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: 0px;
+        top: 9px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #92D1BD;
+    }
+
+    .dashpiechart1 > div > .piechart5[b-2set44ig92] {
+        width: 8px;
+        height: 8px;
+        left: 0px;
+        top: 9px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #BEE0CD;
+    }
+
+    .dashpiechart1 > div > div[b-2set44ig92]{
+        margin-left:20px;
+    }
+
+    .dashpiechart1 > div > div > span[b-2set44ig92] {
+        font-size: 12px;
+    }
+
+.dashpiechart1 > div > div > p[b-2set44ig92]{
+    font-size:10px;
+}
+
+.piecharttotal[b-2set44ig92] {
+    font-size: 13px;
+    color: #484848;
+    font-weight:bold;
+    margin-top:20px;
+}
+/* _content/Agri.FPO/Shared/MainLayout.razor.rz.scp.css */
+.page[b-dbh67q9msb] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-dbh67q9msb] {
+    flex: 1;
+}
+
+.sidebar[b-dbh67q9msb] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-dbh67q9msb] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-dbh67q9msb]  a, .top-row .btn-link[b-dbh67q9msb] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-dbh67q9msb] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-dbh67q9msb] {
+        display: none;
+    }
+
+    .top-row.auth[b-dbh67q9msb] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-dbh67q9msb], .top-row .btn-link[b-dbh67q9msb] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-dbh67q9msb] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-dbh67q9msb] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-dbh67q9msb] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-dbh67q9msb], article[b-dbh67q9msb] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/Agri.FPO/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-ke00ofs36d] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-ke00ofs36d] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-ke00ofs36d] {
+    font-size: 1.1rem;
+}
+
+.oi[b-ke00ofs36d] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-ke00ofs36d] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-ke00ofs36d] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-ke00ofs36d] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-ke00ofs36d]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-ke00ofs36d]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-ke00ofs36d]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-ke00ofs36d] {
+        display: none;
+    }
+
+    .collapse[b-ke00ofs36d] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
